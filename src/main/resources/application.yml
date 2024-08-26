@@ -1,0 +1,11 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://localhost:11434/ #where ollama is up and running
+      chat:
+        model: llama3 #which model
+  application:
+    name: ollama-demo
+
+server:
+  port: 9191
